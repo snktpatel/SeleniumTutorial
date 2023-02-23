@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test thread-count="5" name="SeleniumProject">
+        <classes>
+
+            <class name="org.selniumTraining.TestNgAnnotation"/>
+        </classes>
+    </test>
+    <!-- SeleniumProject -->
+
+    <test thread-count="5" name="SeleniumProject1">
+        <classes>
+
+            <class name="org.selniumTraining.TestNgExample"/>
+        </classes>
+    </test>
+</suite> <!-- Default Suite -->
